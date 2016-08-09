@@ -1,6 +1,6 @@
 # Site settings
 title: The Lilly's Blog
-url: "https://lilia-simeonova.github.io/"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: "//lilia-simeonova.github.io/"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/thelillysblog" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
@@ -19,7 +19,7 @@ profile: One sentence introducing yourself.
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-permalink: /archivers/:title
+permalink: /:year/:month/:day/:title/
 gems:
  - jekyll-paginate
  - jekyll-gist
