@@ -5,7 +5,8 @@ date:   2016-07-19 09:00:13
 categories: Angular 2
 ---
 
-![](/images/pipe.png)
+<img src="{{ site.baseurl }}/images/pipe.png">
+
 
 ## In this post we will discuss:
 

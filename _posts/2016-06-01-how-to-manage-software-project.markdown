@@ -16,7 +16,7 @@ Having all that said  I decided  to create a series of blog posts where I will i
 
 For being more specific and closer to the real world I will plan and build an open source software project. Sounds interesting, huh?
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/cartoon-admitting-mistakes.jpg" height="400" style="float:left; margin-right:30px">
+<img src="{{ site.baseurl }}/images/cartoon-admitting-mistakes.jpg" height="400" style="float:left; margin-right:30px">
 
 
 ## The product

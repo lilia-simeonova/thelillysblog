@@ -18,7 +18,7 @@ It is very powerful tool, which can help us perform a root cause analysis and de
 
 The most common phrase related to Pareto principle is:
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/80-20.jpg"  >
+<img src="{{ site.baseurl }}/images/80-20.jpg"  >
 
 
 You can encounter the following as well:
@@ -48,13 +48,13 @@ Divide the responses to different categories (it is considered a good practice t
 
 At the end we come up with the following list, which now should be analyzed.
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/g1.jpg">
+<img src="{{ site.baseurl }}/images/g1.jpg">
 
 That’s the moment when the Pareto Diagram comes to our mind.
 
 Take a look at the graphic below, it looks complicated, but actually it is not at all.
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/pareto-graphic.png"> 
+<img src="{{ site.baseurl }}/images/pareto-graphic.png"> 
 
 As you can notice the blue bars represent the number of users complaining about similar issues. The interesting part here is the orange line which is also called **cumulative line or Pareto curve**.
 
@@ -76,7 +76,7 @@ Now when you already bought the idea of using Pareto Diagrams, let’s learn how
 
 We need to get our initial statistics and sort them out from largest to smallest:
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/sorted-data.jpg">
+<img src="{{ site.baseurl }}/images/sorted-data.jpg">
 
 ### Step 2
 
@@ -84,13 +84,13 @@ We need to create another column for the cumulative values. For each cell in the
 
 So for instance, in the cell C2 we put the same value as the one in B2, as this is the first row we count.
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/pareto-cumulative.png">  
+<img src="{{ site.baseurl }}/images/pareto-cumulative.png">  
 
 ### Step 3
 
 After that in every cell we put the sum of the users’ complains (the current row included).
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/pareto-cumulative-done.png">  
+<img src="{{ site.baseurl }}/images/pareto-cumulative-done.png">  
 
 As you can see in the last 7th row we have the same value as the total number of complains. This means that our calculations are correct, so we can proceed with getting the cumulative percentage.
 
@@ -98,7 +98,7 @@ As you can see in the last 7th row we have the same value as the total number of
 
 The next thing is to create a Cumulative Count % Column which can count the percent of every row from the totals. You can do this by dividing the cumulative value by the total and multiply by 100:
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/cumulative-2.jpg">  
+<img src="{{ site.baseurl }}/images/cumulative-2.jpg">  
 
 
 After we do that for the whole table it is time to create the graphic.
@@ -109,7 +109,7 @@ First you need to select Column A, B and D at the same time without selecting th
 
 Then click on Insert tab of the Excel and select a graphic.
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/pareto-diagram.png">
+<img src="{{ site.baseurl }}/images/pareto-diagram.png">
 
 Right after you do this, you will receive the following diagram, which of course needs to be modified a bit.
 
@@ -117,12 +117,12 @@ Right after you do this, you will receive the following diagram, which of course
 
 You have to select the orange bars and click right button of the mouse, then select Change series char type.
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/pareto-chart.png">  
+<img src="{{ site.baseurl }}/images/pareto-chart.png">  
 
 
 You will get the following screen from where you need to pick the Combo type and select the second chart.
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/pareto-setting.png">  
+<img src="{{ site.baseurl }}/images/pareto-setting.png">  
 
 
 That was the last step before our creation is done.

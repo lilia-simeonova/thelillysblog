@@ -5,7 +5,7 @@ date:   2016-06-22 09:00:13
 categories: project management
 ---
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/cartoon3_change.jpg" height="300" style="float:left; margin-right:30px">
+<img src="{{ site.baseurl }}/images/cartoon3_change.jpg" height="300" style="float:left; margin-right:30px">
 
 Speaking of Scope Management, it is essential to develop a plan, which can guide us in process of getting clear view of what we want to achieve and how we will achieve it.
 
@@ -30,7 +30,7 @@ Another thing to consider is explaining the approach and project roles (sponsor,
 
 Key element in collecting the requirements is getting them to be SMART:
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/smart.jpg">
+<img src="{{ site.baseurl }}/images/smart.jpg">
 
 
 ### Methods on collecting requirements:
@@ -70,7 +70,7 @@ You have to consider the following things:
 
 The process of subdividing the requirements into smaller pieces is called "Creating Work Breakdown Structure"
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/wbs1.jpg">
+<img src="{{ site.baseurl }}/images/wbs1.jpg">
 
 
 In the end, you should have a tree like the one below - with different levels of division.
@@ -79,7 +79,7 @@ This kind of view helps us to understand better the structure of our project and
 
 Work Breakdown Structure - Template
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/wbs2.jpg">
+<img src="{{ site.baseurl }}/images/wbs2.jpg">
 
 If you go on the path of creating WBS you will need also a WBS Dictionary where you need to give a little more details on the work packages: WBS Dictionary - Template
 

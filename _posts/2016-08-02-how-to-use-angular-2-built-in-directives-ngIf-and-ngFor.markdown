@@ -17,7 +17,7 @@ As you can guess from the title, this directive will allow us to show or hide so
 
 So imagine that you want to display some text after someone clicks a button or even after exactly 3 clicking, like in the following example:
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/2016-08-02_17-20-16.gif">
+<img src="{{ site.baseurl }}/images/2016-08-02_17-20-16.gif">
 
 
 
@@ -81,7 +81,7 @@ Let's continue with another useful directive:
 
 When I wondered what should be the mock data for my next example I saw few kids playing Pokemon Go so let's use the names of the most famous pokemons :P
 
-<img src="http://127.0.0.1:4000/thelillysblog/images/Capture.jpg">
+<img src="{{ site.baseurl }}/images/Capture.jpg">
 
 ~~~ js
 @Component({
