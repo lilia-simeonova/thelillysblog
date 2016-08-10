@@ -5,7 +5,8 @@ date:   2016-07-19 09:00:13
 categories: Angular 2
 ---
 
-pipe.png
+![](/images/pipe.png)
+
 ## In this post we will discuss:
 
 * What is Angular 2 pipe
@@ -24,7 +25,8 @@ In Angular 2 we have pre-defined pipes, which allow us to make string uppercase 
 
 As you can see in the code snippet, the only thing that we need to do, is to declare we want to use pipe with this symbol "|" and to specify which pipe from the core you want to use.
 
-~~~ js
+{% raw %}
+```js
 import { Component } from '@angular/core';
 @Component({
 	selector: 'my-pipe',
@@ -33,7 +35,8 @@ import { Component } from '@angular/core';
 export class PipeComponent{
 	myString: string = 'test';
 }
-~~~
+```
+
 
 The key part here is  {{ myString  uppercase  }} where you are saying something like "I want to apply the "uppercase" filter to myString".
 
@@ -118,3 +121,4 @@ So our initial array [1,2,3,4,5,6,7,8,9,10] will display as [7,8,9,10].
 Feel free to comment or share and stay tuned for more Angular 2 posts.
 
 
+{% endraw %}
