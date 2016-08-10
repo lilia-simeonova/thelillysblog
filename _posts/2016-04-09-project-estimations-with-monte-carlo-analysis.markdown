@@ -15,7 +15,11 @@ In this article we will have a brief look at the **most common practices** accor
 analogous2
 
 
+<<<<<<< HEAD
 <img src="{{ site.baseurl }}/images/analogous21.jpg" width="600 200" >
+=======
+<img src="/images/analogous21.jpg" width="600 200" >
+>>>>>>> 54cf191a00ea6dbacd6922d6aff898b6704e59ed
 
 * Parametric estimating – we estimate the unit cost/duration per activity and then the number of units required for completing it, e.g. $10/hour or 3 days/module. The measurement, however must be scalable, otherwise we risk to lose accuracy.
 
