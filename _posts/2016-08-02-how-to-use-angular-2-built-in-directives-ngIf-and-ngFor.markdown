@@ -2,7 +2,7 @@
 layout: post
 title:  "How to use Angular 2 built-in directives - *ngIf and *ngFor"
 date:   2016-08-02 09:00:13
-categories: Angular 2
+categories: Angular2
 ---
 
 In this post we will briefly explain what are the structural directives and why they make our life easier...
