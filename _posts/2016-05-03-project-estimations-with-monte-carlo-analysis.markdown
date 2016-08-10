@@ -2,7 +2,7 @@
 layout: post
 title:  "Project estimations with Monte Carlo Analysis"
 date:   2016-05-03 09:00:13
-categories: project management
+categories: project-management
 ---
 
 The estimation process in project management is quite an important activity because many decisions depend on its precise completion. It is quite challenging considering all the different factors impacting the project's execution. That is why there are various techniques which can help us create our estimations.

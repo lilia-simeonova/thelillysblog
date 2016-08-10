@@ -2,7 +2,7 @@
 layout: post
 title:  "How to manage Software Project"
 date:   2016-06-01 09:00:13
-categories: project management
+categories: project-management
 ---
 
 Starting a project from scratch could be very overwhelming. Especially if you are beginner in the project management and  you are not sure from where to start or how to connect all the pieces.

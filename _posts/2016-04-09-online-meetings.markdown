@@ -2,7 +2,7 @@
 layout: post
 title:  "The art of holding online meetings"
 date:   2016-04-09 09:00:13
-categories: project management
+categories: project-management
 ---
 
 

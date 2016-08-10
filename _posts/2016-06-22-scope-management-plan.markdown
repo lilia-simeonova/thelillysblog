@@ -2,7 +2,7 @@
 layout: post
 title:  "Scope management plan"
 date:   2016-06-22 09:00:13
-categories: project management
+categories: project-management
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "How to read and create Pareto Charts"
 date:   2016-05-19 09:00:13
-categories: project management
+categories: project-management
 ---
 
 ## Pareto Principle
