@@ -35,6 +35,9 @@
     	font-weight: normal;
     	margin: 0;
     }
+    h1, h2, h3 {
+        border-bottom: 1px solid #CCC;
+    }
     .post-meta {
     	font-size: $small-font-size;
     	color: #666;
