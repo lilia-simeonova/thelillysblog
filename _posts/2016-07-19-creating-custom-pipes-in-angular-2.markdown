@@ -5,7 +5,7 @@ date:   2016-07-19 09:00:13
 categories: Angular 2
 ---
 
-<img src="{{ site.baseurl }}/images/pipe.png">
+<img src="{{ site.baseurl }}/images/pipe.png" height="200px">
 
 
 ## In this post we will discuss:
