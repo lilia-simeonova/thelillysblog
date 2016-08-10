@@ -5,6 +5,24 @@ permalink: /about/
 public: true
 ---
 
-Welcome to this website!
 
-> This website is using [laobubu](http://laobubu.net)'s theme: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
+## Learn about Lilia’s Top 3:
+
+### Working hours interests:
+
+* Practising project management techniques
+* Searching for mathematical applications in PM field
+* Constantly improving communications between the teams
+
+### Non-working hours interests:
+
+* Occasionally teaching calculus in Sofia University
+* Experimenting with web programming so she could make her ideas happen
+* Re-watching F.R.I.E.N.D.S.’s last season at least once a year.
+
+
+## Education:
+
+* Master’s degree – to be filled in the next couple of months:)
+* Bachelor’s degree in Computer Science from Sofia University
+* French High school

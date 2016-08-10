@@ -8,12 +8,12 @@ description: >
 
 # Your information
 # email: your_email@example.com
-author: Lilia Simeonova
+author: Lilia Simeonovafdfd
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 profile: One sentence introducing yourself.
-#twitter_username: twitter_username
-#github_username:  github_username
-
+twitter_username: @lili_vs
+github_username:  lilia-simeonova
+# linkedin_username: Lilia Simeonova
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
