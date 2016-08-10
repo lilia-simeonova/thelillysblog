@@ -1,6 +1,8 @@
 # Site settings
 title: The Lilly's Blog
-url: "//lilia-simeonova.github.io/"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: https://thelillysblog.com
+enforce_ssl: thelillysblog.com
+# url: "//lilia-simeonova.github.io/"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/thelillysblog" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
