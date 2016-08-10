@@ -5,14 +5,16 @@ date:   2016-06-22 09:00:13
 categories: project management
 ---
 
-<img src="{{ site.baseurl }}/images/cartoon3_change.jpg" height="300" style="float:left; margin-right:30px">
+
 
 Speaking of Scope Management, it is essential to develop a plan, which can guide us in process of getting clear view of what we want to achieve and how we will achieve it.
 
 In this article I will lead you through the steps, required for successful scope management plan.
 
 In order to create such a plan it is good to have a template as a starting point. You can find a number of free templates on google or you can check this one: Scope Management Plan - Template
-<br><br><br><br>
+
+<img src="{{ site.baseurl }}/images/cartoon3_change.jpg" height="300">
+
 
 ## Plan the Plan
 
