@@ -88,7 +88,4 @@ The system we are aiming to create should give the end user different options fo
 
 Our next step will be to create a stakeholders list. In our case this is only an experiment and we don’t have any different sides involved, so we should kind of skip this part.
 
-However as I try to design the system to be useful after all, I will treat myself as an end user.
-
-If you want to see how the planning will go, use the hashtag #onlineestimations
 

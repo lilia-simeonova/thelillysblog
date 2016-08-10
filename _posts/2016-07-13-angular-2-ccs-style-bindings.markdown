@@ -12,14 +12,15 @@ In this post we will take a look on how to bind different styles to DOM elements
 
 You are all familiar with the following markup, right?
 
-~~~ js
+{% raw %}
+``` javascript
 <div style="color:red;">Angular 2 is awesome</div>
-~~~
+```
 Now, let’s put some Angular 2 sugar on it:
 
-~~~ js
+``` javascript
 <div [ngStyle] = "{color: "red";}">Angular 2 is awesome</div>
-~~~
+```
 Ok, it does absolutely the same thing as a simple html style. So why we should bother using it?
 
 There is something called Angular 2 Directives, which helps us get some dynamic in our front-end. Now is the time to mention that there are 3 types of directives:
@@ -54,12 +55,12 @@ export class AppComponent {
 ```
 And here is how app/app.component.html looks like:
 
-~~~ js
+``` javascript
 <div style="color: red">Angular 2 is awesome</div>
 <div [ngStyle] = "{color: "red"}">Angular 2 is awesome</div>
 <div [ngStyle] = "{color: "myColor"}">Angular 2 is awesome</div>
 <div [ngStyle] = "{color: "getColor()"}">Angular 2 is awesome</div>
-~~~
+```
 In browser the final result would be:
 
 <div style="color: red">Angular 2 is awesome</div>
@@ -69,9 +70,10 @@ In browser the final result would be:
 
 Angular 2 is also allowing us to use directives directly with CCS styles, so the following statement is valid one:
 
-~~~ js
+``` javascript
 <div [style.color] = "red">Angular 2 is awesome</div>
-~~~
+```
 Have you seen how much time we just saved?
 
 Angular 2 is indeed awesome!
+{% endraw %}
