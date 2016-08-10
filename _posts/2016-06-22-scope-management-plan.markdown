@@ -11,7 +11,6 @@ Speaking of Scope Management, it is essential to develop a plan, which can guide
 
 In this article I will lead you through the steps, required for successful scope management plan.
 
-In order to create such a plan it is good to have a template as a starting point. You can find a number of free templates on google or you can check this one: Scope Management Plan - Template
 
 <img src="{{ site.baseurl }}/images/cartoon3_change.jpg" height="300">
 
@@ -57,7 +56,7 @@ The next step is to prioritize your requirements.
 
 Good technique is MoSCoW principle - you need to decide with your client which is 'must have', 'should have', 'could have' and 'would have'.
 
-Once you are finished, the document, which you should fill in is the Requirement Traceability Matrix: Requirements Traceability Matrix - Template
+Once you are finished, the document, which you should fill in is the Requirement Traceability Matrix Document.
 
 ## Project Scope Statement
 
@@ -77,13 +76,11 @@ The process of subdividing the requirements into smaller pieces is called "Creat
 
 In the end, you should have a tree like the one below - with different levels of division.
 
-This kind of view helps us to understand better the structure of our project and to deliver greater results. Of course creating a hierarchical list is also an option.You can find templates for both in the following files:
-
-Work Breakdown Structure - Template
+This kind of view helps us to understand better the structure of our project and to deliver greater results. Of course creating a hierarchical list is also an option.
 
 <img src="{{ site.baseurl }}/images/wbs2.jpg">
 
-If you go on the path of creating WBS you will need also a WBS Dictionary where you need to give a little more details on the work packages: WBS Dictionary - Template
+If you go on the path of creating WBS you will need also a WBS Dictionary where you need to give a little more details on the work packages.
 
 ## Scope Baseline
 
@@ -103,9 +100,8 @@ If the client is not satisfied with the final result of some deliverable, you ca
 
 Please note that you can make changes on the documents and the processes I have explained.
 
-This article is only a recommendation that worked for me in the past. If you want you can take a look at the Scope Management Plan of the project, described in my last post.
+This article is only a recommendation that worked for me in the past. If you want you can take a look at the [Project Charter](https://thelillysblog.com/2016/06/01/how-to-manage-software-project/)of the project, described in my last post.
 
-Scope Management Plan - Estimation Tool
 
 Cheers.
 

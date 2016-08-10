@@ -38,7 +38,7 @@ So far, so good. But you may wonder from where this variable comes in.
 
 If you are familiar with the basic structure of Angular 2 application, you should know that we should have a basic component, like the one below:
 
-~~~ typescript
+```
 @Component({
   selector: 'test-styles',
   templateUrl: 'app/app.component.html'
@@ -51,7 +51,7 @@ export class AppComponent {
     return 'green';
   }
 }
-~~~
+```
 And here is how app/app.component.html looks like:
 
 ~~~ js
