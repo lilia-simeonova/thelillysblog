@@ -24,7 +24,7 @@ In Angular 2 we have pre-defined pipes, which allow us to make string uppercase 
 
 ## Usage
 {% raw %}
-As you can see in the code snippet, the only thing that we need to do, is to declare we want to use pipe with this symbol  "|" and to specify which pipe from the core you want to use.
+As you can see in the code snippet, the only thing that we need to do, is to declare we want to use pipe with this symbol  <code>&#124;</code> and to specify which pipe from the core you want to use.
 
 
 ```javascript
