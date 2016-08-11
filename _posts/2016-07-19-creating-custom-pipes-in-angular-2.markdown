@@ -50,13 +50,13 @@ The output of {{ myDate }} would be 1468917543306, which is not very readable.
 
 However if we apply the date pipe:
 
-{{ myDate| date}}
+{{ myDate <code>&#124;</code> date}}
 
 The output would be:  ‎Jul‎ ‎19‎, ‎2016.
 
 We can also apply additional formatting:
 
-{{ myDate | date : yMMMMd}}
+{{ myDate <code>&#124;</code> date : yMMMMd}}
 
 will display the full month - July instead of only Jul (December instead of Dec)
 
@@ -112,7 +112,7 @@ With @Pipe({name: 'filterArray'}) we specify how our pipe will be named.
 
 Our class FilterArray will implement a specific version of the transform function, so the following code:
 
-{{ value | filterArray : 6}}
+{{ value <code>&#124;</code> filterArray : 6}}
 will display only the digits greater that 6.
 
 So our initial array [1,2,3,4,5,6,7,8,9,10] will display as [7,8,9,10].
