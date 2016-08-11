@@ -23,10 +23,10 @@ You can think of pipes as some sort of filters or data formatters, which can app
 In Angular 2 we have pre-defined pipes, which allow us to make string uppercase or lowercase, to format data string and so much more.
 
 ## Usage
-
-As you can see in the code snippet, the only thing that we need to do, is to declare we want to use pipe with this symbol "|" and to specify which pipe from the core you want to use.
-
 {% raw %}
+As you can see in the code snippet, the only thing that we need to do, is to declare we want to use pipe with this symbol  "|" and to specify which pipe from the core you want to use.
+
+
 ```javascript
 import { Component } from '@angular/core';
 @Component({

@@ -81,7 +81,7 @@ Let's continue with another useful directive:
 
 When I wondered what should be the mock data for my next example I saw few kids playing Pokemon Go so let's use the names of the most famous pokemons :P
 
-<img src="{{ site.baseurl }}/images/Capture.jpg">
+<img src="{{ site.baseurl }}/images/capture.jpg">
 
 ~~~ js
 @Component({
