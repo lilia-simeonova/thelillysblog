@@ -89,7 +89,7 @@ When I wondered what should be the mock data for my next example I saw few kids 
   template : `
 	<div>
 	    <ul *ngFor="let pokemon of pokemons">
-	       <li> {{ pokemon }}> </li>
+	       <li> {% raw %}{{ pokemon }}> {% endraw %}</li>
 	    </ul>
 	</div>
 	`

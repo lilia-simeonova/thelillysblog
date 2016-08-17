@@ -1,6 +1,7 @@
 # Site settings
 title: The Lilly's Blog
-url: https://thelillysblog.com
+# url: https://thelillysblog.com
+url: http://thelillysblog.com
 enforce_ssl: thelillysblog.com
 # url: "//lilia-simeonova.github.io/"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
@@ -12,7 +13,7 @@ description: >
 # email: your_email@example.com
 author: Lilia Simeonova
 avatar: "/images/lilia.jpg"
-profile: One sentence introducing yourself.
+# profile: One sentence introducing yourself.
 # twitter_username: @lili_vs
 # github_username:  lilia-simeonova
 # linkedin_username: Lilia Simeonova
