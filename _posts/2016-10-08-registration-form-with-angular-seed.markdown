@@ -5,11 +5,11 @@ date:   2016-10-08 09:00:13
 categories: Angular2
 ---
 
-# Angular2 Seed
+# Angular Seed
 
 If you are new to Angular 2 it is probably good idea to use some tool, which can help you out with all the settings required to run Angular.
 
-This [Angular2 seed project](https://github.com/mgechev/angular-seed) by [mgechev](https://github.com/mgechev) is a good way for you to start. 
+This [Angular Seed project](https://github.com/mgechev/angular-seed) by [mgechev](https://github.com/mgechev) is a good way for you to start. 
 
 In this article we won't write our Angular 2 registration form from scratch, but we will use the seed instead.
 
@@ -34,7 +34,6 @@ In order to reach our first goal we should create new folder 'registration' in a
 * registration.routes.ts
 * index.ts
 
-
 1) Let's start with the module file 'registration.module.ts'.
 
 Since we are aiming to create a registration form, we will directly import **FormsModule** in the file and in the decorator:
@@ -46,13 +45,12 @@ import { FormsModule } from '@angular/forms';
 import { RegistrationComponent } from './registration.component';
 
 @NgModule({
-    imports: [CommonModule, FormsModule],
-    declarations: [RegistrationComponent],
-    exports: [RegistrationComponent]
+  imports: [CommonModule, FormsModule],
+  declarations: [RegistrationComponent],
+  exports: [RegistrationComponent]
 })
 
 export class RegistrationModule { }
-
 ```
 
 2) Create Component for this module - registration.component.ts:
@@ -69,12 +67,11 @@ import { Component } from '@angular/core';
 export class RegistrationComponent { }
 
 ```
-3) Create an index file, which will export all of the components from our module - index.ts
+3) Create an index file, which will export all of the components from our module - **index.ts**
 
 ```javascript
 export * from './registration.component';
 export * from './registration.routes';
-
 ```
 
 4) Route file registration.routes.ts
@@ -89,14 +86,13 @@ export const RegistrationRoutes: Route[] = [
     component: RegistrationComponent
   }
 ];
-
-
 ```
+
 After we finish with files creation we need to make sure that everything is bind together
 
 5) We need to add our module to app.module.ts
 
-We need to be careful not only to import the RegistrationModule in the file, but to declare it in **@NgModule decorator**.
+We need to be careful not only to import the **RegistrationModule** in the file, but to declare it in **@NgModule decorator**.
 
 ```javascript
 import { NgModule } from '@angular/core';
@@ -125,9 +121,8 @@ import { SharedModule } from './shared/shared.module';
 })
 
 export class AppModule { }
-
-
 ```
+
 6) Add our route file to app.routes.ts
 
 According to the design of the seed we have a variable containing our routes...
@@ -145,7 +140,6 @@ export const routes: Routes = [
   ...AboutRoutes,
   ...RegistrationRoutes
 ];
-
 ```
 
 7) Finally, we need to declare in the navbar.component.html file (placed in the 'shared' folder ) a link to the new page:
@@ -174,19 +168,20 @@ export class Person {
 }
 ```
 
-After that we will modify our already created registraition.component file:
+After that we will modify our already created **registraition.component.ts** file:
 
 Everytime when our form is submitted, the new person will be added to an array or persons, which we will display later.
 
-We also define a function, called onSubmit with parameter "value", which is data, passed through the submitted form.
+We also define a function, called onSubmit with parameter **value**, which is data, passed through the submitted form.
 
 ``` javascript
 export class RegistrationComponent { 
- persons = new Array();
- counter = 0;
- person;
- onSubmit(value) { 
-  this.person = new Person(value.name, value.email, value.age);
+  persons: Person[] = [];
+  counter = 0;
+  person: Person;
+  
+  onSubmit(value) { 
+    this.person = new Person(value.name, value.email, value.age);
     if(value) {
       this.persons.push(this.person);
     }
@@ -198,18 +193,18 @@ export class RegistrationComponent {
 Back to our html template, we need to replace "Hello world" with actual form.
 
 ```javascript
-<div class='form'>
+<div class="form">
     <h1>Registration Form</h1>
-    <form #registrationForm ="ngForm" (ngSubmit)="onSubmit(registrationForm.value)">
+    <form #registrationForm="ngForm" (ngSubmit)="onSubmit(registrationForm.value)">
       <div class='section'>
-        <label for="name" class='label'>Name</label>
-        <input type="text" id="name" placeholder="Johnny Bravo" class="form-control" name="name"  ngControl="name" #namee="ngModel" ngModel required>
+        <label for="name" class="label">Name</label>
+        <input type="text" id="name" placeholder="Johnny Bravo" class="form-control" name="name"  ngControl="name" #name="ngModel" ngModel required>
       </div>
-      <div class='section'>
-        <label for="age" class='label'>Age</label>
-        <input type="number" id="age" placeholder="23" name = "age" ngModel>
+      <div class="section">
+        <label for="age" class="label">Age</label>
+        <input type="number" id="age" placeholder="23" name="age" ngModel>
       </div>
-      <div class='section'>
+      <div class="section">
         <label for="email" class='label'>Email</label>
         <input type="email" id="email" placeholder="johnny@gmail.com" name="email" ngModel>
       </div>
@@ -218,20 +213,18 @@ Back to our html template, we need to replace "Hello world" with actual form.
     <div class="result">We have {{counter}} users.</div>
     <ul><li *ngFor="let person of persons">Name: {{person.name}}, Age: {{person.age}}, Email: {{person.email}}</li></ul>
 </div>
-
 ```
 
 There are few things that we need to consider here:
 
-1) We should initiate our form #registrationForm ="ngForm", so that we could pass its value on submition
+1) We should initiate our form **#registrationForm="ngForm"**, so that we could pass its value on submition
 
 2) For every input we should:
 
    &nbsp; &nbsp;2.1) define a name
 
-   &nbsp;&nbsp; 2.2) bind it with directive ngModel
+   &nbsp;&nbsp; 2.2) bind it with directive **ngModel**
 
 3) At the end, we display the properties of every submitted person 
-
 
 <img src="{{ site.baseurl }}/images/angular-form.gif">
