@@ -21,7 +21,7 @@ First, we will take a look at the structure of the seed and see how we should cr
 
 At the moment our goal is to create something like this:
 
-<img src="{{ site.baseurl }}/images/registration-form1.jpg">
+<img src="{{ site.baseurl }}/images/registration-form1.JPG">
 
 ## Registration page
 
