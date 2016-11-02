@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Beginner's guide to MEAN Stack - MongoDB, Express.js, Angular 2 and Node.js"
-date:   2016-10-31 09:00:13
+date:   2016-11-02 12:00:13
 categories: Angular2
 ---
 
