@@ -23,6 +23,6 @@ public: true
 
 ## Education:
 
-* Master’s degree – to be filled in the next couple of months:)
+* Master’s degree – currently enrolled in a master's program in AI.
 * Bachelor’s degree in Computer Science from Sofia University
 * French High school
