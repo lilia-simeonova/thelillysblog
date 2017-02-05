@@ -8,6 +8,12 @@ public: true
 
 ## Learn about Lilia’s Top 3:
 
+### Recent projects:
+
+* [ngbot.io](http://ngbot.io) - Angular educational bot
+* [summarize.world](http://summarize.world) - online tool & API for text summarization
+* [jaccard-similarity-sentences](https://github.com/lilia-simeonova/jaccard-similarity-sentences) - npm module for finding similarity between sentences
+
 ### Working hours interests:
 
 * Practising project management techniques
