@@ -196,6 +196,7 @@ module.exports = {
     User.find({ _id: req.params.id}, function(err) {
       if(err) {
         req.status(504);
+        req.end();
         console.log(err);
       }
     }).remove(function (err) {
