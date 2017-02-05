@@ -10,9 +10,9 @@ public: true
 
 ### Recent projects:
 
-* [ngbot.io](http://ngbot.io) - Angular educational bot
-* [summarize.world](http://summarize.world) - online tool & API for text summarization
-* [jaccard-similarity-sentences](https://github.com/lilia-simeonova/jaccard-similarity-sentences) - npm module for finding similarity between sentences
+* <a href="http://ngbot.io" target="_blank">ngbot.io</a> - Angular educational bot
+* <a href="http://summarize.world" target="_blank">summarize.world</a> - online tool & API for text summarization
+* <a href="http://github.com/lilia-simeonova/jaccard-similarity-sentences" target="_blank">jaccard-similarity-sentences</a> - npm module for finding similarity between sentences
 
 ### Working hours interests:
 
