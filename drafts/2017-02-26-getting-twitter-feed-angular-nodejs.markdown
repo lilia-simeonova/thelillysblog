@@ -1,0 +1,145 @@
+---
+layout: post
+title:  "Getting Twitter Feed with Angular and Node.js"
+date:   2017-02-26 09:00:13
+categories: Angular2
+---
+
+In this blog post we will see how we can retrieve twitter data in our Angular application.
+
+At the end, our little project would look like this:
+
+<img src="{{ site.baseurl }}/images/twitter-feed.gif">
+
+Let's start with creating our own node.js server.
+
+In order to make it work you need install few npm modules. Open your project, create server folder and run the following commands:
+
+* npm install express
+* npm install cors
+* npm install twitter
+
+The second step is now to create  `app.js` file:
+
+```javascript
+var express = require('express');
+
+var app = express();
+var cors = require('cors');
+
+app.use(cors());
+
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html');
+  console.log(req.body);
+})
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
+```
+
+Now when you execute `node app.js` you will have running server.
+
+The next thing that we should do is to create file `twitter.js` where we can store all of the logic behind the tweets retrieval.
+
+We are going to use the twitter npm module [twitter](https://www.npmjs.com/package/twitter) with its simple api for searching tweets.
+
+As it is described in the readme file, you need to create your [own application](https://apps.twitter.com/) in twitter.
+
+After this is done, it is time to create `twitter.js` file.
+
+```javascript
+var Twitter = require('twitter');
+
+var client = new Twitter({
+  consumer_key: '.....',
+  consumer_secret: '....',
+  access_token_key: '....',
+  access_token_secret: '....'
+});
+
+module.exports = {
+    seeResults: function (req, res) {
+        var query = req.url.match(/[^=]+$/)[0];
+        client.get('search/tweets', {q: query}, function(error, tweets, response) {
+            var status = tweets.statuses;
+            res.end(JSON.stringify(status));   
+        });
+    }
+}
+```
+Please note that you should replace the '....' with your personal keys.
+
+Here we are using the `twitter` node module api. Nothing to much complicated about it.
+
+Nevertheless, it is good to pay attention to how you are going to retrieve the key word, which we are going to use.
+
+As we are going to see few line later, we will pass this value through the get request as URL parameter.
+
+But first let's take a look at our template.
+
+`feed.component.html`
+
+```javascript
+<form (submit)="data(searchTweet)">
+  <input [(ngModel)]="searchTweet" name="tweet" placeholder="Search something" autocomplete="off">
+  <button type="submit">Twitter</button>
+</form>
+
+<div *ngIf="tweets" class="tweets">
+  <div class="tweet" *ngFor="let tweet of tweets">
+    <div class="left">
+      <img class="picture" [src]= "tweet.user.profile_image_url"/>
+    </div>
+    <div class="right" >
+      <div class="user">
+        <div class="name">{{ tweet.user.name }}</div>
+        <span class="username"> @{{ tweet.user.screen_name }}</span>
+        <span class="date">{{ tweet.created_at }}</span>
+      </div> <br><br>
+      <div class="text">{{ tweet.text }} </div>
+    </div>
+  </div>
+</div>
+```
+
+Two things worth highlighting here:
+
+* As we are using `ngModule` we need to include the `FormsModule` in the array of imports for our application module.
+* The `twitter` API returns plenty of information about one tweet, so it is up to you to decide which information exactly you want to display, I only selected couple of things for the sake of simplicity of the example.
+
+Last but not least, we should define our component and make our get http request.
+
+`feed.component.ts`:
+
+```javascript
+import { Component } from '@angular/core';
+import { Http, Response, RequestOptions, URLSearchParams } from '@angular/http';
+
+@Component({
+  moduleId: module.id,
+  selector: 'sd-feed',
+  templateUrl: 'feed.component.html',
+  styleUrls: ['feed.component.css']
+})
+
+export class FeedComponent {
+   constructor(public http: Http) { }
+   parameter: URLSearchParams = new URLSearchParams();
+   tweets: any;
+   data(searchTweet:string) {
+      this.parameter.set('param1', searchTweet);
+      let requestOptions = new RequestOptions();
+      requestOptions.search = this.parameter;
+      
+      return this.http.get('http://localhost:3000/tweets', requestOptions)
+        .map((res: Response) => res.json())
+        .subscribe((res: any) => {
+          this.tweets = res;
+        });
+    }
+ }
+```
+
+As said earlier we had to use the Angular `URLSearchParams` class so that we could parse our parameter - the search string.

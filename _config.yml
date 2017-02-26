@@ -28,7 +28,7 @@ gems:
  - jekyll-gist
  - jemoji
 
-#future: true
+future: true
 # Build settings
 paginate: 5
 paginate_path: "page:num"
