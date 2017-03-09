@@ -14,11 +14,6 @@ public: true
 * <a href="http://summarize.world" target="_blank">summarize.world</a> - online tool & API for text summarization
 * <a href="http://github.com/lilia-simeonova/jaccard-similarity-sentences" target="_blank">jaccard-similarity-sentences</a> - npm module for finding similarity between sentences
 
-### Working hours interests:
-
-* Practising project management techniques
-* Searching for mathematical applications in PM field
-* Constantly improving communications between the teams
 
 ### Non-working hours interests:
 
