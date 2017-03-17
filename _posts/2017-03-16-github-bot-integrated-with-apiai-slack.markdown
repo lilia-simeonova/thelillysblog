@@ -51,7 +51,7 @@ In this case I have decided to use the following technologies:
 
 ## Integrate all the tools 
 
-<img src="{{ site.baseurl }}/images/integrations.jpg">
+<img src="{{ site.baseurl }}/images/integrations.JPG">
 
 In the beginning we should spend some time clicking through api.ai and slack websites in order to configure our integrations. We can do that in two steps:
 
@@ -126,7 +126,7 @@ The best way to train our bot is to use some real life data examples. In case we
 
 This is an example of `Make a search` intent:
 
-<img src="{{ site.baseurl }}/images/intents.jpg">
+<img src="{{ site.baseurl }}/images/intents.JPG">
 
 As you can see, we provide example questions and mark the entities within them.
 
