@@ -49,7 +49,7 @@ Below we can take a look at some of the solutions that work for me:
 
 4. After that we need to copy the https URL and paste it in our Facebook Webhook page:
 
-    <img src="{{ site.baseurl }}/images/webhook-ngrok.JPG">
+    <img src="{{ site.baseurl }}/images/webhook-ngrok.png">
 
 # Localtunnel
 
