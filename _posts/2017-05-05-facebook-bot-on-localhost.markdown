@@ -45,11 +45,11 @@ Below we can take a look at some of the solutions that work for me:
 
     Then something like this will appear:
 
-    <img src="{{ site.baseurl }}/images/ngrok.jpg">
+    <img src="{{ site.baseurl }}/images/ngrok.JPG">
 
 4. After that we need to copy the https URL and paste it in our Facebook Webhook page:
 
-<img src="{{ site.baseurl }}/images/webhook-ngrok.jpg">
+    <img src="{{ site.baseurl }}/images/webhook-ngrok.JPG">
 
 # Localtunnel
 
