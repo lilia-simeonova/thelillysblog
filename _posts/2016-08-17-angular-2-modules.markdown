@@ -153,4 +153,4 @@ You can find [live example](http://plnkr.co/edit/iGwSjPdcO5hm0hI1e7wD?p=preview)
 
 Hope you enjoyed this article.
 
-Stay tuned :)
+Stay tuned and follow me on [twitter](https://twitter.com/lili_vs) :)

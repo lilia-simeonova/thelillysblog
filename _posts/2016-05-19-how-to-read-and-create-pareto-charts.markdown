@@ -129,4 +129,4 @@ That was the last step before our creation is done.
 
 I hope the article was useful to you.
 
-Cheers!
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!

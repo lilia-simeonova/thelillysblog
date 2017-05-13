@@ -88,4 +88,4 @@ The system we are aiming to create should give the end user different options fo
 
 Our next step will be to create a stakeholders list. In our case this is only an experiment and we don’t have any different sides involved, so we should kind of skip this part.
 
-
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!

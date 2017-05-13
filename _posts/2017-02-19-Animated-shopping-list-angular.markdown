@@ -163,3 +163,5 @@ animations: [
 ```
 
 There are a lot of fun things we can do with Animations, so stay tuned for more articles!
+
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!

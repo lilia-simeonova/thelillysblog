@@ -343,3 +343,5 @@ export class UsersComponent {
 ```
 
 Now we already have our single page application with MEAN stack!
+
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!

@@ -147,4 +147,4 @@ constructor(public http: Http) { }
 
 As said earlier we had to use the Angular `URLSearchParams` class so that we could parse our parameter - the search string.
 
-
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!

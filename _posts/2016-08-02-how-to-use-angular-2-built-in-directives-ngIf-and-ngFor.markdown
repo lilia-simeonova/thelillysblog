@@ -108,4 +108,4 @@ As a normal for loop with the syntax "let pokemon of pokemons" we are saying tha
 
 Hope this content would be useful for you.
 
-Cheers!
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!

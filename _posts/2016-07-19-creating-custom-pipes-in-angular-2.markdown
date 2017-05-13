@@ -123,3 +123,5 @@ Feel free to comment or share and stay tuned for more Angular 2 posts.
 
 
 {% endraw %}
+
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!

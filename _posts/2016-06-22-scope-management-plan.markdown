@@ -102,9 +102,7 @@ Please note that you can make changes on the documents and the processes I have 
 
 This article is only a recommendation that worked for me in the past. If you want you can take a look at the [Project Charter](https://thelillysblog.com/2016/06/01/how-to-manage-software-project/)of the project, described in my last post.
 
-
-Cheers.
-
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!
 
 
 

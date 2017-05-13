@@ -61,3 +61,4 @@ This doesn’t mean that you don’t have to be a professional or serious, just 
 
 Be respectful, to be respected and always be positive.
 
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!

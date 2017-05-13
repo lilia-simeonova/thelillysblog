@@ -228,3 +228,5 @@ There are few things that we need to consider here:
 3) At the end, we display the properties of every submitted person 
 
 <img src="{{ site.baseurl }}/images/angular-form.gif">
+
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!

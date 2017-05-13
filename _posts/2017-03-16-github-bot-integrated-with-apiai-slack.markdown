@@ -313,3 +313,4 @@ I started this project only for fun, but if you want to help me make this thing 
 
 <img src="{{ site.baseurl }}/images/github-gif.gif" width="600" height="350">
 
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!

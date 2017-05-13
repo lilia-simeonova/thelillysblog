@@ -76,4 +76,6 @@ Angular 2 is also allowing us to use directives directly with CCS styles, so the
 Have you seen how much time we just saved?
 
 Angular 2 is indeed awesome!
+
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!
 {% endraw %}

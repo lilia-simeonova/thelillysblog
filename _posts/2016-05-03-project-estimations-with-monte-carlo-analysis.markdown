@@ -103,4 +103,4 @@ As we tried different estimation techniques we found out that the result are app
 
 However every project is unique and it is our responsibility to find the right method and use it, but remember these estimations will never give us 100% probability.
 
-Cheers!
+If you like this, follow me on [twitter](https://twitter.com/lili_vs)!
