@@ -2,7 +2,7 @@
 layout: post
 title:  "Animated Shopping List with Angular"
 date:   2017-02-19 09:00:13
-categories: Angular2
+categories: Angular
 ---
 
 In this post we’ll develop a shopping list and enhance its look with animations!

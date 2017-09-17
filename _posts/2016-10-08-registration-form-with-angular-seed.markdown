@@ -2,7 +2,7 @@
 layout: post
 title:  "How to create registration form with Angular 2 seed"
 date:   2016-10-08 09:00:13
-categories: Angular2
+categories: Angular
 ---
 
 # Angular Seed

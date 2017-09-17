@@ -2,7 +2,7 @@
 layout: post
 title:  "K-Fold Cross-validation with Python"
 date:   2017-08-18 19:00:13
-categories: Machine Learning
+categories: Machine-Learning
 ---
 
 ## Validation

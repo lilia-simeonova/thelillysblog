@@ -2,7 +2,7 @@
 layout: post
 title:  "Angular 2 Modules - the breaking changes in RC5"
 date:   2016-08-17 10:00:13
-categories: Angular2
+categories: Angular
 ---
 
 # Modules

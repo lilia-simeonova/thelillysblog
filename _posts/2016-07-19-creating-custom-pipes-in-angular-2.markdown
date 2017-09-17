@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating Custom pipes in Angular 2"
 date:   2016-07-19 09:00:13
-categories: Angular2
+categories: Angular
 ---
 
 <img src="{{ site.baseurl }}/images/pipe.png" height="200px">

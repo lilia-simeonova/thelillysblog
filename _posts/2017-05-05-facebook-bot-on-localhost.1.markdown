@@ -2,7 +2,7 @@
 layout: post
 title:  "Facebook Messanger Bot on Localhost with Ngrok or Localtunnel"
 date:   2017-05-03 09:00:13
-categories: Chat Bots
+categories: Machine-Learning
 ---
 
 In this article we are going to discuss how to make our development process easier when it comes to creating Facebook Messanger Chatbots.

@@ -2,7 +2,7 @@
 layout: post
 title:  "How to develop a chatbot in less than 200 lines of JavaScript"
 date:   2017-03-16 09:00:13
-categories: AI
+categories: Machine-Learning
 ---
 
 
