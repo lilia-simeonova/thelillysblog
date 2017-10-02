@@ -35,7 +35,7 @@ Before we start we need to make sure we have the following tools installed:
 
 See below a simple diagram of how we will design our deep neural network.
  
-<img src="{{ site.baseurl }}/images/architecture-nn.jpg" >
+<img src="{{ site.baseurl }}/images/architecture-nn.jpg" > 
 
 <p style="text-align: center;">Figure 1 - Architecture Bidirectional LSTM</p>
 
